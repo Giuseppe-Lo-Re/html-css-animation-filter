@@ -60,7 +60,7 @@
 }
 
 .ex-4-square:hover {
-   background-color: white; 
+    opacity: 0; 
 }
 
 .ex-5-square {
