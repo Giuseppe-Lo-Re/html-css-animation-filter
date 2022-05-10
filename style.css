@@ -199,9 +199,9 @@
 /* Soluzione esercizio 12 */
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: moveTopWhite 2s linear;
+    animation: topmove 2s linear;
 }
-@keyframes moveTopWhite {
+@keyframes topmove {
     0% {
         left: 10%;
     }
@@ -213,9 +213,9 @@
     }
 }
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: moveBottomWhite 2s linear;
+    animation: bottommove 2s linear;
 }
-@keyframes moveBottomWhite {
+@keyframes bottommove {
     0% {
         right: 20%;
     }
@@ -228,9 +228,9 @@
 }
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: moveTopWhiteCompletely 2s linear;
+    animation: totaltopmove 2s linear;
 }
-@keyframes moveTopWhiteCompletely {
+@keyframes totaltopmove {
     0% {
         left: 10%;
         top: -10px;
@@ -257,9 +257,9 @@
     }
 }
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: moveBottomWhiteCompletely 2s linear;
+    animation: totalbottommove 2s linear;
 }
-@keyframes moveBottomWhiteCompletely {
+@keyframes totalbottommove {
     0% {
         bottom: -10px;
         right: 20%;
