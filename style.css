@@ -74,6 +74,16 @@
     filter: grayscale(100%);
 } 
 
+/* Soluzione esercizio 7 */
+
+.ex-7-img {
+    transition: all 2s;
+}
+
+.ex-7-img:hover {
+    filter: sepia(100%);
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
